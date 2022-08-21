@@ -1,0 +1,96 @@
+a.underline {
+  color: #eb4432;
+}
+
+a.underline:hover {
+  color: #1a1aff;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+nav a {
+  padding: 0.5rem;
+}
+
+ul.skills li mark {
+  background-color: transparent;
+  color: black;
+  font-weight: 600;
+}
+
+ul.skills li mark:hover {
+  cursor: pointer;
+  color: red;
+  text-decoration: underline;
+}
+
+mark {
+  background: transparent;
+  color: #718096;
+}
+
+mark:hover {
+  cursor: text;
+  text-decoration: none;
+}
+
+form {
+  margin-right: 25px;
+}
+form input[type=text],
+form input[type=number] {
+  padding: 7px 8px;
+  font-size: 14px;
+  padding-right: 25px;
+  border: 2px solid #a0a0a0;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  width: 100%;
+  outline: none;
+}
+form input[type=number] {
+  padding-right: 0;
+  width: 100%;
+}
+form input[type=text]::-moz-placeholder, form input[type=number]::-moz-placeholder {
+  color: #b9b9b9;
+  font-weight: 600;
+}
+form input[type=text]:-ms-input-placeholder, form input[type=number]:-ms-input-placeholder {
+  color: #b9b9b9;
+  font-weight: 600;
+}
+form input[type=text]::placeholder,
+form input[type=number]::placeholder {
+  color: #b9b9b9;
+  font-weight: 600;
+}
+form label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.errorText {
+  color: #eb4432 !important;
+}
+
+form input[type=submit], a.edit, input.del {
+  background-color: #ed5949 !important;
+  padding: 5px 15px;
+  color: white !important;
+  font-weight: 500 !important;
+  cursor: pointer;
+  border-radius: 4px;
+  letter-spacing: 1.1px;
+}
+
+input.del {
+  background-color: #1a1aff;
+}
+
+form.delform {
+  display: flex !important;
+  justify-content: space-around !important;
+}/*# sourceMappingURL=style.css.map */
